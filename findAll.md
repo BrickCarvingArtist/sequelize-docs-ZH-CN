@@ -1,6 +1,6 @@
 > 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-findAll](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-findAll)
 
-> public static findAll(配置选项: 对象): Promise<Array<Model>>
+> public static findAll(配置选项: 对象): Promise<Array\<Model>>
 用来查询多个实例。
 
 ### 用AND和=来简单查询
@@ -76,8 +76,8 @@ WHERE `Model`.`name` = 'a project' AND (`Model`.`id` IN (1, 2, 3) OR (`Model`.`i
 
 **名称** | **数据类型** | **属性** | **描述**
 -- | -- | -- | --
-options	| Object | 可选配置 | 一系列配置选项来表述搜索的范围
+options	| Object | 可选配置 | 一系列配置选项来描述搜索的范围
 options.rejectOnEmpty | Boolean或Error | 可选配置，默认值：false | 在没有记录时抛出一个错误
 
 ### 返回值：
-Promise<Array<Model>>
+Promise<Array\<Model>>
