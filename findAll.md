@@ -1,4 +1,5 @@
 > 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-findAll](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-findAll)
+
 > public static findAll(配置选项: 对象): Promise<Array<Model>>
 用来查询多个实例。
 
@@ -67,14 +68,14 @@ Model.findAll({
 WHERE `Model`.`name` = 'a project' AND (`Model`.`id` IN (1, 2, 3) OR (`Model`.`id` > 10 AND `Model`.`id` < 100));
 ```
 
-当查询语句执行成功时，这个promise返回一个装着模型的数组。
+当查询语句执行成功时，这个promise返回一个装着模型的数组。
 
 ### 别名：all
 
 ### 参数：
 
 **名称** | **数据类型** | **属性** | **描述**
-- | - | - | -
+-- | -- | -- | --
 options	| Object | 可选配置 | 一系列配置选项来表述搜索的范围
 options.rejectOnEmpty | Boolean或Error | 可选配置，默认值：false | 在没有记录时抛出一个错误
 
