@@ -12,7 +12,7 @@ options.as | string或object | 可选配置 | 这个模型的别名。如果你�
 options.foreignKey | string或object | 可选配置 | 目标表的外键名称或一个对象代表了外键列的类型定义（语法参见`Sequelize.define`）。当使用一个对象时，你可以添加一个`name`属性来设置列名。默认为源（模型）名+源（模型）的主键名
 options.sourceKey | string | 可选配置 | 域的名字用作来源表里的组合关联的键。默认设为来源表的主键。
 options.scope | object | 可选配置 | 一个设来用作关系创建和查找目标（模型）默认值的键值对。（sqlite不支持多对多）
-options.onDelete | string | 可选配置，默认值：'SET NULL'或'CASCADE' | 如果foreignKey允许null设为SET NULL，其他情况为CASCADE
+options.onDelete | string | 可选配置，默认值：'SET NULL'或'CASCADE' | 如果foreignKey允许null设为SET NULL，其他情况为CASCADE
 options.onUpdate | string | 可选配置，默认值：'CASCADE'
 options.constraints | boolean | 可选配置，默认值：true | 是否应该在外键上启用更新和删除约束。
 
