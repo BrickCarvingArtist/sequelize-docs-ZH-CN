@@ -70,7 +70,7 @@ WHERE `Model`.`name` = 'a project' AND (`Model`.`id` IN (1, 2, 3) OR (`Model`.`i
 
 当查询语句执行成功时，这个promise返回一个装着模型的数组。
 
-### 别名：all
+### 别名：*all*
 
 ### 参数：
 
