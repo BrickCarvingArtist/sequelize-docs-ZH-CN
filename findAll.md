@@ -82,7 +82,7 @@ options.attributes | Array\<String> | 可选配置 | 一系列你想要选取的
 options.attributes.include | Array\<String> | 可选配置 | 选择模型里的所有属性，再加上一些额外的。对聚合很有用，例如`{ attributes: { include: [[sequelize.fn('COUNT', sequelize.col('id')), 'total']] }`
 options.attributes.exclude | Array\<String> | 可选配置 | 选取模型中除了少许的一些以外的全部属性。有助于安全考虑，例如`{ attributes: { exclude: ['password'] } }`
 options.paranoid | Boolean | 可选配置，默认值：true | 如果true，只会返回未被删除的纪录。如果false，删除过的和未被删除的纪录都会被返回。只会在模型的`option.paranoid`是true时启用。
-options.include | Array\<Object|Model|String> | 可选配置 | 使用一个左联接预加载的关系列表。`{ include: [ Model1, Model2, ...]}`、` include: [{ model: Model1, as: 'Alias' }]}`或`{ or { include: ['Alias']}` 都是被支持的。如果你的关系是以（如`X.hasMany(Y, { as: 'Z }`）架设，你需要当预加载Y时在属性上`as`指定`Z`。
+options.include | Array\<Object或Model或String> | 可选配置 | 使用一个左联接预加载的关系列表。`{ include: [ Model1, Model2, ...]}`、` include: [{ model: Model1, as: 'Alias' }]}`或`{ or { include: ['Alias']}` 都是被支持的。如果你的关系是以（如`X.hasMany(Y, { as: 'Z }`）架设，你需要当预加载Y时在属性上`as`指定`Z`。
 options.include[].model | Model	| 可选配置 | 你打算预加载的模型
 options.include[].as | String | 可选配置 | 联系的别名，在你打算加载的模型已进行过别名的场景里。对于`hasOne`与`belongsTo`（的关系里），这个（配置）应该是单个名称，而对于`hasMany`（关系），它应该是复数形式的（即数组）
 options.include[].association | Association	| 可配置的 | 你想要预加载的关系。（这能以提供model及as对子来替代）
