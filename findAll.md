@@ -95,7 +95,7 @@ options.include[].separate | Boolean | 可选配置 | 如果true，单独运行�
 options.include[].limit | Number | 可选配置 | 限制被联接的行数，只在include.separate等于true时才被支持
 options.include[].through.where | Object | 可选配置 | belongsToMany关系在联接模型上的筛选功能
 options.include[].through.attributes | Array | 可选配置 | 一个为belongsToMany关系所用的从联接模型选取属性的列表
-options.include[].include | Array\<Object|Model|String> | 可选配置 | 加载更深嵌套的有关联模型
+options.include[].include | Array\<Object或Model或String> | 可选配置 | 加载更深嵌套的有关联模型
 options.order | Array或fn或col或literal | 可选配置 | 指定一个排序。使用一个数组时，你能提供一些列或函数来进行排序。每个元素更能被以一个两个元素的数组包裹。第一个元素是用来排序的列或函数，第二个是顺序。举个例子：`order: [['name', 'DESC']]`。在这种情况下列名将会被拆解出来，而顺序不会。
 options.limit | Number | 可选配置 |
 options.offset | Number | 可选配置 |
