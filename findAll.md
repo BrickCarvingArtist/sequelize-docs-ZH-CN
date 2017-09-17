@@ -1,6 +1,7 @@
 > 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-findAll](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-findAll)
 
 > public static findAll(配置选项: 对象): Promise<Array\<Model>>
+
 用来查询多个实例。
 
 ### 用AND和=来简单查询

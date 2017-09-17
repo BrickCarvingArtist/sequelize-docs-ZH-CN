@@ -1,3 +1,5 @@
+> 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-hasMany](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-hasMany)
+
 > public static hasMany（目标：模型，配置选项：对象）：HasMany
 
 在这个（源）和提供的目标（模型）中创建一个一对多关系。外键被加在目标（模型）上。

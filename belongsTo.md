@@ -1,4 +1,7 @@
+> 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-belongsTo](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-belongsTo)
+
 > public static belongsTo（目标：模型，配置选项：对象）：BelongsTo
+
 在这个（源）和提供的目标（模型）中创建一个一对多关系。外键被加在源（模型）上。
 
 ### 参数：
