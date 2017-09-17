@@ -41,6 +41,8 @@ sequelize.models.modelName // 这个模型现在将是基于传给define的name�
 ```
 
 ### 参见：
-[Model.init]()查看一个更综合的对`options`及`attributes`对象的定义。 
-[关于定义模型的手册章节]() 
+[Model.init]()查看一个更综合的对`options`及`attributes`对象的定义。
+
+[关于定义模型的手册章节]()
+
 [数据类型]()查看一列的可用数据类型的列表
