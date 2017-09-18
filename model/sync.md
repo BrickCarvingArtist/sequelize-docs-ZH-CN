@@ -13,4 +13,4 @@ options | *
 Promise\<this>
 
 ### 参见：
-Sequelize#sync获取配置
+[Sequelize#sync]()获取配置
