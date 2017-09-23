@@ -61,3 +61,38 @@ options.scopes | Object | 可选配置 | 更多的范围，与上面的默认范
 options.omitNull | Boolean | 可选配置 | 不存留null值。这意味着所有包含null值的列都不会被存储
 options.timestamps | Boolean | 可选配置，默认值：true | 添加创建于和更新于时间戳到模型上。
 options.paranoid | Boolean | 可选配置，默认值：false | 调用`destory`将不删除模型，当这个值为true时取而代之的是设置一个`deleteAt`的时间戳。需要`timestamps=true`得以运作。
+options.underscored | Boolean | 可选配置，默认值：false | 如果为true则把所有驼峰命名列转换为下划线命名列。将不影响各由模型选项具名的时间戳的域以及具体设置的`field`选项
+options.underscoredAll | Boolean | 可选配置，默认值：false | 如果为true则把所有驼峰命名模型名称转换为下划线命名的表名。当freezeTableName被设为true时将不会更改模型的名称
+options.freezeTableName | Boolean | 可选配置，默认值：false | 如果freeTableName为true，sequelize将不尝试通过去更改模型名称来获取表明。反之，模型名称将会是复数形式的
+options.name | Object | 可选配置 | 一个拥有两个属性的对象，`singular`和`plural`，它们在模型被与其他（模型）关联时使用。
+options.name.singular | String | 可选配置，默认值：Utils.singularize(模型名称)
+options.name.plural | String | 可选配置，默认值：Utils.pluralize(模型名称)
+options.indexes | Array\<Object> | 可选配置
+options.indexes[].name | String | 可选配置 | 索引的名称。默认为模型名 + _ + 被联系起来的域
+options.indexes[].type | String | 可选配置 | 索引类型。仅限mysql使用。UNIQUE，FULLTEXT和SPATIAL中的任一。
+options.indexes[].method | String | 可选配置 | 用（SQL中的`USING`语句）以创建索引的方法。BTREE和HASH是被mysql和postgre支持的，而且postgre还额外支持GIST和GIN。
+options.indexes[].unique | Boolean | 可选配置，默认值：false | 索引需要唯一吗？也能通过设置类型为UNIQUE被触发
+options.indexes[].concurrently | Boolean | 可选配置，默认值：false | PostgreSQL将不带上任何写入锁来构建索引。仅限Postgre
+options.indexes[].fields | Array\<String或Object> | 可选配置 | 一个各索引的域数组。每一个域既能是一个包含域名的字符串，又能是一个sequelize对象（如`sequelize.fn`），或一个携带以下属性的对象：attribute（域的名称），length（创建一个长度char的前缀索引），order（列需要被排序的顺序），collate（列的（排序顺序）集合）
+options.createdAt | String或Boolean | 可选配置 | 当被提供的是一个字符串时覆盖createAt列的名字，当为false时不启用（这一列）。时间戳必须为true。不受下划线设置的影响。
+options.updatedAt | String或Boolean | 可选配置 | 当被提供的是一个字符串时覆盖updatedAt列的名字，当为false时不启用（这一列）。时间戳必须为true。不受下划线设置的影响。
+options.deletedAt | String或Boolean | 可选配置 | 当被提供的是一个字符串时覆盖deletedAt列的名字，当为false时不启用（这一列）。时间戳必须为true。不受下划线设置的影响。
+options.tableName | String | 可选配置 | 默认为复数形式的模型名称，除非freezeTableName是true，才会一字不差地使用模型名称
+options.schema | String | 可选配置，默认值：'public'
+options.engine | String | 可选配置
+options.charset | String | 可选配置
+options.comment | String | 可选配置
+options.collate | String | 可选配置
+options.initialAutoIncrement | String | 可选配置 | 在MySQL中设置初始化AUTO_INCREMENT值。
+options.hooks | Object | optional | 一个在特定生命周期事件中被调用的钩子函数对象。可能的钩子有：beforeValidate，afterValidate，validationFailed，beforeBulkCreate，beforeBulkDestroy，beforeBulkUpdate，beforeCreate，beforeDestroy，beforeUpdate，afterCreate，afterDestroy，afterUpdate， afterBulkCreate，afterBulkDestory和afterBulkUpdate。更多关于钩子函数和它们的用法说明参见钩子。
+options.validate | Object | 可选配置 | 一个模型的广义校验对象。校验通过这个对象触及所有模型的值。如果校验器方法带着一个参数，它被冒充成异步的，并且被一个接受一个带有可选的错误的回调函数所调用。
+
+### 返回值：
+
+[Model]()
+
+### 参见：
+
+[DataTypes]()
+
+Hooks
