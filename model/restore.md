@@ -5,7 +5,9 @@
 当启用`paranoid`时恢复多个实例。
 
 参数：
+
 名称 | 数据类别 | 属性 | 描述
+—- | -- | -- | --
 options | Object
 options.where | Object | 可选配置 | 筛选恢复（的条件）
 options.hooks | Boolean | 可选配置，默认值：true | 是否运行`beforeBulkRestore`或`afterBulkRestore`钩子？
