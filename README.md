@@ -1,4 +1,4 @@
-# Sequelize v4.8.4 中文版api文档
+# Sequelize v4.13.2 中文版api文档
 
 ## Sequelize篇
 

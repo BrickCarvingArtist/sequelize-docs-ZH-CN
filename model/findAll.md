@@ -22,19 +22,20 @@ WHERE attr1 = 42 AND attr2 = 'cake'
 ### 用比...大，比...小等（来查询）
 
 ```js
+const {gt, lte, ne, in: opIn} = Sequelize.Op;
 Model.findAll({
 	where: {
 		attr1: {
-			gt: 50
+			[gt]: 50
 		},
 		attr2: {
-			lte: 45
+			[lte]: 45
 		},
 		attr3: {
-			in: [1,2,3]
+			[opIn]: [1,2,3]
 		},
 		attr4: {
-			ne: 5
+			[ne]: 5
 		}
 	}
 })
@@ -49,15 +50,16 @@ WHERE attr1 > 50 AND attr2 <= 45 AND attr3 IN (1,2,3) AND attr4 != 5
 ### 使用OR的查询条件
 
 ```js
+const {or, and, gt, lt} = Sequelize.Op;
 Model.findAll({
   where: {
 	name: 'a project',
-	$or: [
+	[or]: [
 	  {id: [1, 2, 3]},
 	  {
-		$and: [
-		  {id: {gt: 10}},
-		  {id: {lt: 100}}
+		[and]: [
+		  {id: {[gt]: 10}},
+		  {id: {[lt]: 100}}
 		]
 	  }
 	]
