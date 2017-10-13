@@ -1,4 +1,4 @@
-> 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-removeAttribetu](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-removeAttribute)
+> 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-removeAttribute](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-removeAttribute)
 
 > public static removeAttribute(属性：String)
 
