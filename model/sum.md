@@ -1,5 +1,6 @@
 > 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-sum](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-sum)
-public static sum(字段：String,配置选项：Object)：Promise\<Number>
+
+> public static sum(字段：String,配置选项：Object)：Promise\<Number>
 
 查询字段的总和
 
