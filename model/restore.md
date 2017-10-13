@@ -4,7 +4,7 @@
 
 当启用`paranoid`时恢复多个实例。
 
-参数：
+### 参数：
 
 名称 | 数据类别 | 属性 | 描述
 —- | -- | -- | --
@@ -17,6 +17,6 @@ options.logging | Function | 可选配置，默认值：false | 一个在运行�
 options.benchmark | Boolean | 可选配置，默认值：false | 传出以毫秒计的查询执行耗时作为日志函数的第二个参数（options.logging）。
 options.transaction | [Transaction]() | 可选配置 | 运行查询所基于的事务
 
-返回值：
+### 返回值：
 
 Promise\<undefined>
