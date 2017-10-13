@@ -8,6 +8,7 @@
 
 * [model.belongsTo](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/belongsTo.md)
 * [model.findAll](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/findAll.md)
+* [model.getTableName](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/getTableName.md)
 * [model.hasMany](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/hasMany.md)
 * [model.init](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/init.md)
 * [model.max](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/max.md)
