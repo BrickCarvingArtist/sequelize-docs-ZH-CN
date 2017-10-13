@@ -5,16 +5,13 @@
 查询字段的最大值
 
 ### 参数：
-
 名称 | 数据类型 | 属性 | 描述
 -- | -- | -- | --
 field | String
 options | Object | 可选配置 | 参见aggregate
 
 ### 返回值：
-
 Promise\<Any>
 
 ### 参见：
-
 Model#aggregate获取options配置

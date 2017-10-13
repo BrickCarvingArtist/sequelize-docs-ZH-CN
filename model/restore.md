@@ -5,8 +5,7 @@
 当启用`paranoid`时恢复多个实例。
 
 ### 参数：
-
-名称 | 数据类别 | 属性 | 描述
+名称 | 数据类型 | 属性 | 描述
 —- | -- | -- | --
 options | Object
 options.where | Object | 可选配置 | 筛选恢复（的条件）
@@ -18,5 +17,4 @@ options.benchmark | Boolean | 可选配置，默认值：false | 传出以毫秒
 options.transaction | [Transaction]() | 可选配置 | 运行查询所基于的事务
 
 ### 返回值：
-
 Promise\<undefined>
