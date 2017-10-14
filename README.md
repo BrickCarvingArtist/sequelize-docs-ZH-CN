@@ -21,3 +21,7 @@
 ## Sequelize篇
 
 * [sequelize.define](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/define.md)
+
+## Transaction篇
+
+* [Transaction.prototype.constructor](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/transaction/constructor.md)
