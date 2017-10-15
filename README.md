@@ -20,6 +20,7 @@
 
 ## Sequelize篇
 
+* [sequelize.col](http://docs.sequelizejs.com/class/lib/sequelize.js~Sequelize.html#instance-method-col)
 * [sequelize.define](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/define.md)
 
 ## Transaction篇
