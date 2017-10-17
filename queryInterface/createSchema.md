@@ -1,6 +1,6 @@
 > 翻译自 [http://docs.sequelizejs.com/class/lib/query-interface.js~QueryInterface.html#instance-method-createSchema](http://docs.sequelizejs.com/class/lib/query-interface.js~QueryInterface.html#instance-method-createSchema)
 
-> public createSchema(schema, options：对象)：Promise
+> public createSchema(schema：字符串, options：对象)：Promise
 
 创建一个schema
 
