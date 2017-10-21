@@ -20,6 +20,7 @@
 * [sequelize.queryInterface.changeColumn](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/queryInterface/changeColumn.md)
 * [sequelize.queryInterface.createTable](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/queryInterface/createTable.md)
 * [sequelize.queryInterface.createSchema](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/queryInterface/createSchema.md)
+* [sequelize.queryInterface.removeColumn](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/queryInterface/removeColumn.md)
 
 ## Sequelize篇
 

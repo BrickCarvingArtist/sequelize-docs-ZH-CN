@@ -1,6 +1,6 @@
 > 翻译自 [http://docs.sequelizejs.com/class/lib/query-interface.js~QueryInterface.html#instance-method-addColumn](http://docs.sequelizejs.com/class/lib/query-interface.js~QueryInterface.html#instance-method-addColumn)
 
-> public addColumn(tableName：字符串, key, attribute, options：对象)：Promise
+> public addColumn(tableName：字符串, key：字符串, attribute：对象, options：对象)：Promise
 
 往表里添加新一列
 
