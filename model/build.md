@@ -1,4 +1,4 @@
-> 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-findAll](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-findAll)
+> 翻译自 [http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-build](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-build)
 
 > public static build(options：对象)：[Model]()或[Model]()[]
 

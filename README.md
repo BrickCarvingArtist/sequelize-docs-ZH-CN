@@ -4,6 +4,7 @@
 
 * [model.belongsTo](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/belongsTo.md)
 * [model.build](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/build.md)
+* [model.drop](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/drop.md)
 * [model.findAll](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/findAll.md)
 * [model.getTableName](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/getTableName.md)
 * [model.hasMany](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/hasMany.md)
