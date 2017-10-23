@@ -26,6 +26,7 @@
 
 ## Sequelize篇
 
+* [sequelize.authenticate](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/authenticate.md)
 * [sequelize.col](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/col.md)
 * [sequelize.define](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/define.md)
 * [sequelize.fn](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/fn.md)
