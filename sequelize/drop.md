@@ -8,7 +8,7 @@
 名称 | 数据类型 | 属性 | 描述
 -- | -- | -- | --
 options | object | | 传给每次调用Model.drop中的各配置选项
-options.logging | Boolean或function | 一个打印各sql语句的方法，或者false表示不打印
+options.logging | Boolean或function | | 一个打印各sql语句的方法，或者false表示不打印
 
 ### 返回值：
 Promise
