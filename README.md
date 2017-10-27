@@ -32,6 +32,7 @@
 * [sequelize.define](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/define.md)
 * [sequelize.drop](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/drop.md)
 * [sequelize.fn](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/fn.md)
+* [sequelize.import](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/import.md)
 * [sequelize.literal](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/literal.md)
 * [sequelize.truncate](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/truncate.md)
 
