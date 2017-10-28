@@ -1,6 +1,6 @@
 # Sequelize v4.13.2 中文版api文档
 
-## Model篇
+## Model
 
 * [model.belongsTo](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/belongsTo.md)
 * [model.build](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/build.md)
@@ -16,7 +16,7 @@
 * [model.sum](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/sum.md)
 * [model.sync](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/model/sync.md)
 
-## QueryInterface篇
+## QueryInterface
 
 * [sequelize.queryInterface.addColumn](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/queryInterface/addColumn.md)
 * [sequelize.queryInterface.changeColumn](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/queryInterface/changeColumn.md)
@@ -24,7 +24,7 @@
 * [sequelize.queryInterface.createSchema](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/queryInterface/createSchema.md)
 * [sequelize.queryInterface.removeColumn](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/queryInterface/removeColumn.md)
 
-## Sequelize篇
+## Sequelize
 
 * [sequelize.authenticate](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/authenticate.md)
 * [sequelize.close](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/close.md)
@@ -36,6 +36,6 @@
 * [sequelize.literal](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/literal.md)
 * [sequelize.truncate](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/sequelize/truncate.md)
 
-## Transaction篇
+## Transaction
 
 * [Transaction.prototype.constructor](https://github.com/BrickCarvingArtist/sequelize-docs-ZH-CN/blob/master/transaction/constructor.md)
