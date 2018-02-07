@@ -6,6 +6,7 @@
 
 ### 参数：
 名称 | 数据类型 | 属性 | 描述
+-- | -- | -- | --
 tableName | String | | 要从它来作改变的表名
 attributeName | String | | 列名
 dataTypeOrOptions | Object | | 新列的属性定义
